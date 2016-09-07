@@ -1,0 +1,43 @@
+{
+  "name": "tfk-opengov-meetings-extract",
+  "description": "Extract all meetings/agendas/documents from all boards",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js",
+    "standard-fix": "standard --fix"
+  },
+  "keywords": [
+    "opengov",
+    "360",
+    "360 opengov meetings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/tfk-opengov-meetings-extract.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/tfk-opengov-meetings-extract/issues"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.12",
+    "nsp": "2.6.1",
+    "standard": "8.0.0",
+    "tap": "7.0.1"
+  },
+  "dependencies": {
+    "opengov-meetings": "3.0.0"
+  }
+}
