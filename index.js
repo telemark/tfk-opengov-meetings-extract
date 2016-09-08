@@ -1,6 +1,5 @@
 'use strict'
 
-const config = require('./config')
 const getBoards = require('./lib/get-boards')
 const getMeetings = require('./lib/get-meetings')
 const saveMeeting = require('./lib/save-meeting')
@@ -29,7 +28,7 @@ const handleMeetings = (error, meetings) => {
   if (error) {
     console.error(error)
   } else {
-    done ++
+    done++
     meetings.forEach(meeting => allMeetings.push(meeting))
     if (todo === done) {
       console.log('tfk-opengod-meetings-extract: meetings collected')
@@ -44,7 +43,7 @@ const handleBoards = (error, boards) => {
   } else {
     console.log('tfk-opengod-meetings-extract: boards collected')
     boards.forEach(board => {
-      todo ++
+      todo++
       getMeetings(board, handleMeetings)
     })
   }
