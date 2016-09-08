@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/tfk-opengov-meetings-extract.svg?branch=master)](https://travis-ci.org/telemark/tfk-opengov-meetings-extract)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-opengov-meetings-extract
-Hent ut alle møter og dokumenter fra opengov. Lag jsonfiler med resultatet.
+Modul for å hente ut alle møter og linker til dokumenter fra opengov. 
+Lager jsonfiler med resultatet.
 
 # Bruk CLI
 
