@@ -1,7 +1,7 @@
 {
   "name": "tfk-opengov-meetings-extract",
   "description": "Extract all meetings/agendas/documents from all boards",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -36,7 +36,7 @@
     "nsp": "2.6.3",
     "coveralls": "2.13.1",
     "standard": "10.0.2",
-    "tap": "10.4.0"
+    "tap": "10.3.3"
   },
   "dependencies": {
     "opengov-meetings": "3.1.6"
