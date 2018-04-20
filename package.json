@@ -39,6 +39,6 @@
     "tap": "11.1.4"
   },
   "dependencies": {
-    "opengov-meetings": "5.0.0"
+    "opengov-meetings": "5.1.0"
   }
 }
