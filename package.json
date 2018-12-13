@@ -17,7 +17,8 @@
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "start": "node index.js"
+    "start": "node index.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "opengov",
