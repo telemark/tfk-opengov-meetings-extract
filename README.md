@@ -2,7 +2,6 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-opengov-meetings-extract
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-opengov-meetings-extract.svg)](https://greenkeeper.io/)
 Modul for å hente ut alle møter og linker til dokumenter fra opengov. 
 Lager jsonfiler med resultatet.
 
