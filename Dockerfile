@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:8.14.1
+FROM mhart/alpine-node:8.15.0
 
 #### Begin setup ####
 
