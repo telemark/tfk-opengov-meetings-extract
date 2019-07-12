@@ -33,7 +33,7 @@
     "url": "http://github.com/zrrrzzt/tfk-opengov-meetings-extract/issues"
   },
   "devDependencies": {
-    "coveralls": "3.0.4",
+    "coveralls": "3.0.5",
     "standard": "13.0.1",
     "tap": "14.4.1"
   },
