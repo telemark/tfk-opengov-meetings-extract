@@ -38,6 +38,6 @@
     "tap": "14.10.7"
   },
   "dependencies": {
-    "opengov-meetings": "5.2.1"
+    "opengov-meetings": "6.0.2"
   }
 }
